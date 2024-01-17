@@ -454,6 +454,7 @@ header .song_side nav .search input{
    color:#ffff;
    font-size: 12px;
 }  
+/* đăng nhập */
 header .song_side nav .user{
     padding: 0;
     margin: 0;
@@ -464,7 +465,13 @@ header .song_side nav .user{
     height:30px;
     border-radius: 50%;
     cursor: pointer;
-   
+}
+header .song_side nav .user a{
+   position: relative;
+   right: -450px;
+   top:12px;
+   text-decoration: none;
+   color: transparent;  /* ẩn user */
 }
 
 header .song_side nav .info{
